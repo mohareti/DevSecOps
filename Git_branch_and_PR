@@ -1,0 +1,40 @@
+# Committing Changes to a Branch in Azure Repos
+
+1. **Create a Branch:**
+   ```bash
+   git checkout -b your-branch-name
+Replace your-branch-name with the desired branch name.
+
+Make Changes:
+Make the necessary changes to your code or files.
+
+Add Changes to Staging:
+
+bash
+Copy code
+git add .
+Stage all changes. Replace . with specific file names if needed.
+
+Commit Changes:
+
+bash
+Copy code
+git commit -m "Your commit message here"
+Replace "Your commit message here" with a meaningful message.
+
+Push Changes to Azure Repos:
+
+bash
+Copy code
+git push origin your-branch-name
+Push changes to the remote repository.
+
+Create a Pull Request (Optional):
+If working in a shared repository:
+
+Go to Azure DevOps repository.
+Click "Pull Requests."
+Click "New pull request."
+Select source and target branches.
+Review changes and create the pull request.
+Now your changes are committed to the branch in Azure Repos. If a pull request was created, it can be reviewed and merged.
